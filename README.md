@@ -1,31 +1,32 @@
-![alt text](https://kookkkookk.github.io/TaoyuanAboriginalActivities/dist/images/md_use1.jpg)
+This is an easy backup tool.
 
-# 2017 桃園縣政府 原住民日 | 系列活動 |
->(Responsive Web Design)
+Support Window / Linux / Os,
 
-### Preview site
-[https://kookkkookk.github.io/TaoyuanAboriginalActivities/dist/](https://kookkkookk.github.io/TaoyuanAboriginalActivities/dist/)
+Conducive to a project to perform daily backup or rapid package transfer.
 
-### Plugins
- - Scss
- - Vuejs
- - Vue Router
- - axios
- - swiper
- - Gulp
- - webpack
-
-### Test project
+## Now use it quickly
 > Please refer to the following steps.
 
-※chech Dillinger requires Node.js v4+ to run.
+※The following example is the Window platform
 
-Install the dependencies and devDependencies and start the server.
+Before this you have to go to go path /jar/ to modify filelist.txt you want to back up the list of files
+
+### List example
+- D:\test = represents all files in this folder
+- D:\test2\Folder1\Folder1_2\b1_2.txt = Specify file
+
+Then open cmd and type the following in order
 ```sh
-$ cd TaoyuanAboriginalActivities
-$ npm install -d
-$ npm run dev
+$ cd jar
+$ ls
+$ ./backupListTools.bat
 ```
+You will see that the directory has automatically generated the Migrate_source folder.
 
-License
-MIT
+From inside you can see > date's folder > backup project
+
+imple and quick to use here.
+
+## If you want to modify the code and generate the jar, please refer to the following instructions.
+
+(to be completed)
